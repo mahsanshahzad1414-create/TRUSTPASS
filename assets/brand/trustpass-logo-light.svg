@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="120" rx="16" fill="#0B1220" />
+  <!-- symbol -->
+  <g transform="translate(30,20)">
+    <circle cx="40" cy="40" r="34" fill="#ffffff" opacity="0.06"/>
+    <g transform="translate(16,8)">
+      <!-- person/profile -->
+      <circle cx="24" cy="18" r="10" fill="#ffffff" opacity="0.95"/>
+      <path d="M4 48c6-8 18-12 32-12s26 4 32 12v4H4v-4z" fill="#ffffff" opacity="0.95"/>
+      <!-- verification tick -->
+      <path d="M48 4 L64 20 L48 36 L44 32 L56 20 L44 8z" fill="#10B981" transform="translate(0,8) scale(0.6)" />
+    </g>
+    <!-- nodes connecting to indicate permission/AI -->
+    <circle cx="100" cy="12" r="5" fill="#06B6D4"/>
+    <circle cx="120" cy="40" r="5" fill="#7C3AED"/>
+    <path d="M56 30 L96 18 L116 36" stroke="#7C3AED" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  </g>
+  <!-- wordmark -->
+  <g transform="translate(120,36)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="28" fill="#ffffff" font-weight="700">TRUSTPASS</text>
+    <text x="0" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Your Identity. Your Context. Your Permission.</text>
+  </g>
+</svg>
